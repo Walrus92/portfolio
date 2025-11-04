@@ -1,2 +1,14 @@
+# ========== SCALA / SBT ==========
+/target/
 /.bsp/
-target/
+/project/target/
+/project/project/
+/metals.sbt
+
+# ========== INTELLIJ IDEA ==========git branch -M main
+                                     #git push -u origin main
+.idea/
+*.iml
+
+# ========== SISTEMA / OTROS ==========
+.DS_Store
