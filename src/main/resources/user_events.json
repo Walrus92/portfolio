@@ -1,0 +1,33 @@
+[
+  {
+    "user_id": "u001",
+    "profile": {
+      "name": "Lucía",
+      "country": "ES",
+      "preferences": ["music", "travel", "sports"]
+    },
+    "events": [
+      {"type": "login", "timestamp": "2023-06-01T08:23:00Z"},
+      {"type": "purchase", "timestamp": "2023-06-01T09:10:00Z"}
+    ],
+    "metadata": {
+      "device": "mobile",
+      "ip": "192.168.1.15"
+    }
+  },
+  {
+    "user_id": "u002",
+    "profile": {
+      "name": "Miguel",
+      "country": "PT",
+      "preferences": ["books", "art"]
+    },
+    "events": [
+      {"type": "login", "timestamp": "2023-06-02T10:30:00Z"}
+    ],
+    "metadata": {
+      "device": "desktop",
+      "ip": "192.168.1.22"
+    }
+  }
+]

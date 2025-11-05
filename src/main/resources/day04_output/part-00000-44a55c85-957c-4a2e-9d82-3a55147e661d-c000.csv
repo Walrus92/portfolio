@@ -1,0 +1,4 @@
+user_id,name,country,device,ip,preferences,events,country_lower,num_preferences,is_mobile,event_type,event_timestamp,user_category
+u001,Lucía,ES,mobile,192.168.1.15,"music, travel, sports","[{\"timestamp\":\"2023-06-01T08:23:00Z\",\"type\":\"login\"},{\"timestamp\":\"2023-06-01T09:10:00Z\",\"type\":\"purchase\"}]",es,3,true,login,2023-06-01T08:23:00Z,multi-interest
+u001,Lucía,ES,mobile,192.168.1.15,"music, travel, sports","[{\"timestamp\":\"2023-06-01T08:23:00Z\",\"type\":\"login\"},{\"timestamp\":\"2023-06-01T09:10:00Z\",\"type\":\"purchase\"}]",es,3,true,purchase,2023-06-01T09:10:00Z,multi-interest
+u002,Miguel,PT,desktop,192.168.1.22,"books, art","[{\"timestamp\":\"2023-06-02T10:30:00Z\",\"type\":\"login\"}]",pt,2,false,login,2023-06-02T10:30:00Z,medium-interest
