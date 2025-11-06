@@ -1,0 +1,8 @@
+region,amount,date,salesperson,sale_num,running_total,avg_running,diff_vs_prev,region_total,region_avg,region_count
+North,1000,2023-01-03,Carla,1,1000,1000.0,,1900,475.0,4
+North,200,2023-01-04,Carla,2,1200,600.0,-800,1900,475.0,4
+South,500,2023-01-01,Lucía,1,500,500.0,,1500,500.0,3
+South,200,2023-01-05,Lucía,2,700,350.0,-300,1500,500.0,3
+South,800,2023-01-10,Lucía,3,1500,500.0,600,1500,500.0,3
+North,300,2023-01-02,Miguel,1,300,300.0,,1900,475.0,4
+North,400,2023-01-09,Miguel,2,700,350.0,100,1900,475.0,4

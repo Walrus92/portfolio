@@ -1,0 +1,9 @@
+[
+  {"region": "South", "salesperson": "Lucía", "date": "2023-01-01", "amount": 500},
+  {"region": "South", "salesperson": "Lucía", "date": "2023-01-05", "amount": 200},
+  {"region": "South", "salesperson": "Lucía", "date": "2023-01-10", "amount": 800},
+  {"region": "North", "salesperson": "Miguel", "date": "2023-01-02", "amount": 300},
+  {"region": "North", "salesperson": "Miguel", "date": "2023-01-09", "amount": 400},
+  {"region": "North", "salesperson": "Carla", "date": "2023-01-03", "amount": 1000},
+  {"region": "North", "salesperson": "Carla", "date": "2023-01-04", "amount": 200}
+]
