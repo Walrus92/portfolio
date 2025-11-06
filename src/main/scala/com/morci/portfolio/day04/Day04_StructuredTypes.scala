@@ -66,18 +66,21 @@ object Day04_StructuredTypes extends App {
   println("=== DataFrame con categorización ===")
   categorizedDF.show(false)
 
-  // 6️ Guardar en CSV
-  val dfToWrite = categorizedDF.withColumn(
-      "preferences",
-      concat_ws(", ", col("preferences"))
-    )
-    .withColumn("events", to_json(col("events")))
+  // 6️⃣ Convertir columnas complejas a string antes de exportar a CSV
+  // (para evitar el error de tipos no soportados)
+  val exportableDF = categorizedDF
+    .withColumn("preferences", concat_ws(",", $"preferences")) // array -> string
+    .withColumn("events_json", to_json($"events"))             // array<struct> -> JSON string
+    .drop("events")                                            // eliminar columna compleja
 
+  println("=== DataFrame listo para exportar ===")
+  exportableDF.show(false)
 
-  dfToWrite.write
+  // 7️⃣ Guardar en CSV
+  exportableDF.write
     .mode("overwrite")
     .option("header", "true")
     .csv("src/main/resources/day04_output")
 
-  println(" Datos escritos en src/main/resources/day04_output")
+  println("✅ Datos escritos correctamente en src/main/resources/day04_output")
 }
