@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Entertainment",
+    "subcategory": "Book"
+  },
+  {
+    "category": "Entertainment",
+    "subcategory": "Party"
+  },
+  {
+    "category": "Home",
+    "subcategory": "Kitchen"
+  },
+  {
+    "category": "Automotive",
+    "subcategory": "Tire"
+  },
+  {
+    "category": "Clothing",
+    "subcategory": "Womens"
+  },
+  {
+    "category": "Automotive",
+    "subcategory": "Car"
+  },
+  {
+    "category": "Activity",
+    "subcategory": "Outdoors"
+  },
+  {
+    "category": "Clothing",
+    "subcategory": "Womens"
+  },
+  {
+    "category": "Clothing",
+    "subcategory": "Mens"
+  },
+  {
+    "category": "Home",
+    "subcategory": "Gardening"
+  }
+]
